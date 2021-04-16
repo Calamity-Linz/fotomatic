@@ -42,6 +42,8 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   z-index: 9999;
+  height: 5.6rem;
+  top: -5px;
 }
 
 header .content {
@@ -61,6 +63,7 @@ header nav ul {
 nav li {
   padding-left: 3.5rem;
   list-style-type: none;
+  margin-top: -10px;
 }
 
 nav a {
@@ -70,9 +73,11 @@ nav a {
   color: #4a4a4a;
   text-decoration: none;
 }
+
 .desktop.logo {
   text-decoration: none;
   color: #000;
+  margin-top: -10px;
 }
 
 header .icon {
@@ -119,6 +124,12 @@ header .mobile {
 }
 
 /* Sign Up Section */
+
+#sign-up-section.banner {
+  background-image: url("../images/banner-landingpage.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 #sign-up-section {
   display: flex;
